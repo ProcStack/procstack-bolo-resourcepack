@@ -1,7 +1,6 @@
 {
   "pack": {
-    "description": "Bolo - a sword/axe hybrid weapon",
-    "min_format": [100, 0],
-    "max_format": [107, 1]
+    "pack_format": 55,
+    "description": "Bolo assets for procstack-bolo-v0.1"
   }
 }
