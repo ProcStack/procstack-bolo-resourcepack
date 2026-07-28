@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "Bolo - a sword/axe hybrid weapon (wood, stone, copper, gold, iron, diamond, netherite)",
-    "min_format": [94, 1],
+    "description": "Bolo - a sword/axe hybrid weapon",
+    "min_format": [100, 0],
     "max_format": [107, 1]
   }
 }

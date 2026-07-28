@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "bolo:textures/item/diamond_bolo"
+    "layer0": "bolo:item/diamond_bolo"
   }
 }

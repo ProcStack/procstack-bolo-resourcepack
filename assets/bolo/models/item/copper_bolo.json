@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "bolo:textures/item/copper_bolo"
+    "layer0": "bolo:item/copper_bolo"
   }
 }
