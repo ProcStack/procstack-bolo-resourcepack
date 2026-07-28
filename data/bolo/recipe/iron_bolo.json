@@ -1,0 +1,54 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " M",
+    "S "
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "M": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": { "text": "Iron Bolo" },
+      "minecraft:item_model": "bolo:iron_bolo",
+      "minecraft:max_damage": 250,
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "bolo:iron_bolo_attack_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 4.0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "bolo:iron_bolo_attack_speed",
+          "type": "minecraft:attack_speed",
+          "amount": -1.05,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tool": {
+        "rules": [ 
+          {
+             "blocks": "#minecraft:mineable/axe",
+             "speed": 8.0,
+             "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:sword_efficient",
+            "speed": 8.0,
+            "correct_for_drops": true
+          }
+        ]
+      }
+    }
+  }
+}
+
+
