@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
@@ -10,13 +10,17 @@
     "M": "minecraft:diamond"
   },
   "result": {
-    "id": "minecraft:diamond_axe",
+    "id": "minecraft:diamond_sword",
     "count": 1,
     "components": {
       "minecraft:item_name": { "text": "Diamond Bolo" },
       "minecraft:item_model": "bolo:diamond_bolo",
       "minecraft:max_damage": 1561,
       "minecraft:damage": 0,
+      "minecraft:enchantable": {
+        "value": 14,
+        "slot": "sword"
+      },
       "minecraft:attribute_modifiers": [
         {
           "id": "bolo:diamond_bolo_attack_damage",
@@ -34,10 +38,15 @@
         }
       ],
       "minecraft:tool": {
-        "rules": [
+        "rules": [ 
           {
-            "blocks": "#minecraft:mineable/axe",
-            "speed": 9.0,
+             "blocks": "#minecraft:mineable/axe",
+             "speed": 8.0,
+             "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/sword",
+            "speed": 8.0,
             "correct_for_drops": true
           }
         ]
@@ -45,3 +54,5 @@
     }
   }
 }
+
+

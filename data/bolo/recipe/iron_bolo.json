@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
@@ -10,13 +10,17 @@
     "M": "minecraft:iron_ingot"
   },
   "result": {
-    "id": "minecraft:iron_axe",
+    "id": "minecraft:iron_sword",
     "count": 1,
     "components": {
       "minecraft:item_name": { "text": "Iron Bolo" },
       "minecraft:item_model": "bolo:iron_bolo",
       "minecraft:max_damage": 250,
       "minecraft:damage": 0,
+      "minecraft:enchantable": {
+        "value": 14,
+        "slot": "sword"
+      },
       "minecraft:attribute_modifiers": [
         {
           "id": "bolo:iron_bolo_attack_damage",
@@ -34,9 +38,14 @@
         }
       ],
       "minecraft:tool": {
-        "rules": [
+        "rules": [ 
           {
-            "blocks": "#minecraft:mineable/axe",
+             "blocks": "#minecraft:mineable/axe",
+             "speed": 8.0,
+             "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/sword",
             "speed": 8.0,
             "correct_for_drops": true
           }
@@ -45,3 +54,5 @@
     }
   }
 }
+
+
