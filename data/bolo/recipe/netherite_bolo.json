@@ -28,7 +28,7 @@
         {
           "id": "bolo:netherite_bolo_attack_speed",
           "type": "minecraft:attack_speed",
-          "amount": 0.0,
+          "amount": 0.5,
           "operation": "add_value",
           "slot": "mainhand"
         }
