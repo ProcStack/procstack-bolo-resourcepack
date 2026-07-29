@@ -24,7 +24,7 @@
         {
           "id": "bolo:copper_bolo_attack_damage",
           "type": "minecraft:attack_damage",
-          "amount": 3.0,
+          "amount": 4.0,
           "operation": "add_value",
           "slot": "mainhand"
         },
@@ -46,7 +46,12 @@
           },
           {
             "blocks": "#minecraft:sword_efficient",
-            "speed": 8.0,
+            "speed": 15.0,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "minecraft:cobweb",
+            "speed": 15.0,
             "correct_for_drops": true
           }
         ]
