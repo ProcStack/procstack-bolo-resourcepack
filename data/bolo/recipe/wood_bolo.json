@@ -13,6 +13,9 @@
     "id": "minecraft:wooden_sword",
     "count": 1,
     "components": {
+      "minecraft:custom_data": {
+        "is_bolo": true
+      },
       "minecraft:item_name": { "text": "Wooden Bolo" },
       "minecraft:item_model": "bolo:wood_bolo",
       "minecraft:max_damage": 59,
@@ -37,7 +40,7 @@
         "rules": [ 
           {
              "blocks": "#minecraft:mineable/axe",
-             "speed": 8.0,
+             "speed": 1.8,
              "correct_for_drops": true,
              "use_efficiency": true
           },

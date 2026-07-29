@@ -13,6 +13,9 @@
     "id": "minecraft:copper_sword",
     "count": 1,
     "components": {
+      "minecraft:custom_data": {
+        "is_bolo": true
+      },
       "minecraft:item_name": { "text": "Copper Bolo" },
       "minecraft:item_model": "bolo:copper_bolo",
       "minecraft:max_damage": 190,
@@ -37,7 +40,7 @@
         "rules": [ 
           {
              "blocks": "#minecraft:mineable/axe",
-             "speed": 8.0,
+             "speed": 5.0,
              "correct_for_drops": true,
              "use_efficiency": true
           },

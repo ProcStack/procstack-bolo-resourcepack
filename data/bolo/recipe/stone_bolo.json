@@ -13,6 +13,9 @@
     "id": "minecraft:stone_sword",
     "count": 1,
     "components": {
+      "minecraft:custom_data": {
+        "is_bolo": true
+      },
       "minecraft:item_name": { "text": "Stone Bolo" },
       "minecraft:item_model": "bolo:stone_bolo",
       "minecraft:max_damage": 131,
@@ -37,7 +40,7 @@
         "rules": [ 
           {
              "blocks": "#minecraft:mineable/axe",
-             "speed": 8.0,
+             "speed": 3.5,
              "correct_for_drops": true,
              "use_efficiency": true
           },
