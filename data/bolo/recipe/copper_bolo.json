@@ -2,8 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    " M",
-    "S "
+    "  M",
+    " M ",
+    "S  "
   ],
   "key": {
     "S": "minecraft:stick",

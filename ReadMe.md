@@ -8,21 +8,14 @@ A Minecraft data pack & resource pack by **ProcStack** adding the **Bolo**
 
 
 ## Features
-
 Slightly weaker but faster than a sword
 <br/>Slightly slower chopping wood than an axe
 
 - **Bolo Types**:
   - Wood, Stone, Copper, Gold, Iron, Diamond, & Netherite
-- 1 Stick (Lower Left) & 1 Material (Upper Right); 2x2
 - Custom crafting and smithing recipes
 - Add both Sword & Axe Enchantments
 
-
-**Known Bug** -
-<br/> Using a Diamond Bolo in a Smithing Table outputs a Diamond Bolo, not a Netherite Bolo.
-<br/>Use a netherite ingot in the crafting table like any other material type.
-<br/>&nbsp;&nbsp; *To be fixed shortly!*
 
 ## Install
 Download the repo's zip by clicking to the `Code` button in the upper right, click `Download ZIP`
@@ -34,6 +27,11 @@ Load your world
 
 Then just test the crafting recipe!
 
+
+**Known Bug** -
+<br/> Using a Diamond Bolo in a Smithing Table outputs a Diamond Bolo, not a Netherite Bolo.
+<br/>Use a netherite ingot in the crafting table.
+<br/>&nbsp;&nbsp; *To be fixed shortly!*
 
 <p align="center">
   -Sword & Axe Enchantments-
