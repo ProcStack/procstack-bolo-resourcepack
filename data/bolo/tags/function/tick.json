@@ -1,5 +1,6 @@
 {
   "values": [
-    "bolo:tick"
+    "bolo:tick",
+    "bolo:check_right_click"
   ]
 }
