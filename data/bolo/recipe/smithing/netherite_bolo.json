@@ -1,13 +1,17 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": "minecraft:netherite_upgrade_smithing_template",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
   "base": {
     "item": "minecraft:diamond_sword",
     "components": {
-      "minecraft:item_model": "bolo:diamond_bolo"
+      "minecraft:custom_data": "{is_bolo:true}"
     }
   },
-  "addition": "minecraft:netherite_ingot",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
   "result": {
     "id": "minecraft:netherite_sword",
     "count": 1,
@@ -15,10 +19,9 @@
       "minecraft:custom_data": {
         "is_bolo": true
       },
-      "minecraft:item_name": { "text": "Netherite Bolo" },
+      "minecraft:item_name": "{\"text\":\"Netherite Bolo\",\"italic\":false}",
       "minecraft:item_model": "bolo:netherite_bolo",
       "minecraft:max_damage": 2031,
-      "minecraft:damage": 0,
       "minecraft:attribute_modifiers": [
         {
           "id": "bolo:netherite_bolo_attack_damage",
@@ -36,16 +39,16 @@
         }
       ],
       "minecraft:tool": {
-        "rules": [ 
+        "rules": [
           {
             "blocks": "#minecraft:mineable/axe",
-            "speed": 8.0,
+            "speed": 7.0,
             "correct_for_drops": true,
             "use_efficiency": true
           },
           {
             "blocks": "#minecraft:sword_efficient",
-            "speed": 8.0,
+            "speed": 7.0,
             "correct_for_drops": true
           }
         ]

@@ -40,13 +40,13 @@
         "rules": [ 
           {
              "blocks": "#minecraft:mineable/axe",
-             "speed": 8.0,
+             "speed": 7.0,
              "correct_for_drops": true,
              "use_efficiency": true
           },
           {
             "blocks": "#minecraft:sword_efficient",
-            "speed": 8.0,
+            "speed": 7.0,
             "correct_for_drops": true
           }
         ]
