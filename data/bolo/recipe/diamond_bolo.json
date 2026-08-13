@@ -32,7 +32,7 @@
         {
           "id": "bolo:diamond_bolo_attack_speed",
           "type": "minecraft:attack_speed",
-          "amount": 0.5,
+          "amount": 0.2,
           "operation": "add_value",
           "slot": "mainhand"
         }
