@@ -32,7 +32,7 @@
         {
           "id": "bolo:stone_bolo_attack_speed",
           "type": "minecraft:attack_speed",
-          "amount": 0.2,
+          "amount": 0.75,
           "operation": "add_value",
           "slot": "mainhand"
         }
