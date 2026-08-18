@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
+    "  T",
     " M ",
-    "S  ",
-    "   "
+    "S  "
   ],
   "key": {
     "S": "minecraft:stick",
-    "M": "minecraft:netherite_ingot"
+    "M": "minecraft:netherite_ingot",
+    "T": "minecraft:netherite_upgrade_smithing_template"
   },
   "result": {
     "id": "minecraft:netherite_sword",
