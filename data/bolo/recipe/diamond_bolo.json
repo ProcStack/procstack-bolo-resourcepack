@@ -17,12 +17,6 @@
       "minecraft:custom_data": {
         "is_bolo": true
       },
-      "minecraft:consumable": {
-        "consume_seconds": 0.05,
-        "animation": "none",
-        "sound": "minecraft:ui.button.click",
-        "has_consume_particles": false
-      },
       "minecraft:item_name": { "text": "Diamond Bolo" },
       "minecraft:item_model": "bolo:diamond_bolo",
       "minecraft:max_damage": 1561,

@@ -22,10 +22,14 @@ Download the repo's zip by clicking to the `Code` button in the upper right, cli
 <br/> Extract the zip in your `.minecraft\resourcepacks\` & `.minecraft\saves\[YOUR_WORLD_NAME]\datapacks\` directories.
 
 Load your world
-<br/> Check your `Options > Resource Packs > Available` list for `procstack-bolo-v0.1` and click the Icon's Arrow.
-<br/> Moving `procstack-bolo-v0.1` to the `Selected` list.
+<br/> Check your `Options > Resource Packs > Available` list for `procstack-bolo-v0.2` and click the Icon's Arrow.
+<br/> Moving `procstack-bolo-v0.2` to the `Selected` list.
 
 Then just test the crafting recipe!
+
+**Change Log; v0.2**
+<br/> Removed the De-Waxing and Wood Stripping right click.
+<br/>&nbsp;&nbsp; They weren't working well anyway
 
 
 **Known Bug** -
