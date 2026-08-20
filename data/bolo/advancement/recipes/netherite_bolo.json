@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["bolo:smithing/netherite_bolo", "bolo:netherite_bolo"]
+  },
+  "criteria": {
+    "has_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": ["minecraft:netherite_upgrade_smithing_template"] } ]
+      }
+    },
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": ["minecraft:netherite_ingot"] } ]
+      }
+    }
+  },
+  "requirement": [ ["has_template", "has_netherite_ingot"] ]
+}

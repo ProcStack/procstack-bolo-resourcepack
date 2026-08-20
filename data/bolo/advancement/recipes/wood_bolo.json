@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["bolo:wood_bolo"]
+  },
+  "criteria": {
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": ["minecraft:stick"] } ]
+      }
+    },
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "tag": "minecraft:wooden_tool_materials" } ]
+      }
+    }
+  },
+  "requirement": [ ["has_stick", "has_material"] ]
+}
